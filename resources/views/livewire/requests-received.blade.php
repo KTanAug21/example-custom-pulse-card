@@ -22,12 +22,12 @@
                     @foreach( $machines as $machine )
                         <tr>
                             <x-pulse::td class="max-w-[1px]">
-                                <code class="block text-xs text-gray-900 dark:text-gray-100 truncate">
+                                <code class="block text-xs text-gray-900 truncate">
                                     {{ $machine->key }}
                                 </code>
                             </x-pulse>
                             <x-pulse::td class="max-w-[1px]">
-                                <code class="block text-xs text-gray-900 dark:text-gray-100 truncate">
+                                <code class="block text-xs text-gray-900 truncate">
                                     {{ $machine->count }}
                                 </code>
                             </x-pulse>
